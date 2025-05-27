@@ -5,6 +5,7 @@ from student import Student
 DATA_FILE = os.path.join(os.path.dirname(__file__), "data", "students.json")
 
 class Storage:
+    
     @staticmethod
     def load_students():
         if not os.path.exists(DATA_FILE):
