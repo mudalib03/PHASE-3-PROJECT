@@ -3,6 +3,12 @@
         "name": "mudalib",
         "student_id": "001",
         "required_fees": 10000.0,
-        "fees_paid": 10000.0
+        "fees_paid": 160000.0
+    },
+    {
+        "name": "mula",
+        "student_id": "002",
+        "required_fees": 20000.0,
+        "fees_paid": 15000.0
     }
 ]
