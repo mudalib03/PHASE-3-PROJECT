@@ -1,6 +1,7 @@
 from storage import Storage
 
 class Fees:
+
     def record_payment(self, student_id, amount):
         students = Storage.load_students()
         for student in students:
