@@ -6,12 +6,6 @@ class Student:
         self.fees_paid = fees_paid
 
     def to_dict(self):
-        return {
-            "name": self.name,
-            "student_id": self.student_id,
-            "required_fees": self.required_fees,
-            "fees_paid": self.fees_paid
-        }
 
     @staticmethod
     def from_dict(data):
