@@ -1,0 +1,8 @@
+[
+    {
+        "name": "mudalib",
+        "student_id": "001",
+        "required_fees": 10000.0,
+        "fees_paid": 10000.0
+    }
+]
