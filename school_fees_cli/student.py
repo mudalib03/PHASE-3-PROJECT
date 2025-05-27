@@ -13,7 +13,7 @@ class Student:
             "fees_paid": self.fees_paid
         }
 
-    @staticmethod
+   @staticmethod
     def from_dict(data):
         return Student(
             data["name"],
